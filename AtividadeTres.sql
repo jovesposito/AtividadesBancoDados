@@ -3,12 +3,12 @@ CREATE DATABASE db_escola;
 USE db_escola;
 
 CREATE TABLE tb_estudantes(
-	matricula BIGINT AUTO_INCREMENT,
+    matricula BIGINT AUTO_INCREMENT,
     nome VARCHAR(255) NOT NULL,
     genero VARCHAR(255) NOT NULL,
     situacao VARCHAR(255) NOT NULL,
     nota DECIMAL(2,1) NOT NULL,
-	PRIMARY KEY (matricula)
+    PRIMARY KEY (matricula)
 );
 
 INSERT INTO tb_estudantes(nome, genero, situacao, nota)

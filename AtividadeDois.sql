@@ -3,7 +3,7 @@ CREATE DATABASE db_ecommerce;
 USE db_ecommerce;
 
 CREATE TABLE tb_produtos(
-	id_produto BIGINT AUTO_INCREMENT,
+    id_produto BIGINT AUTO_INCREMENT,
     nome_categoria VARCHAR(255) NOT NULL,
     nome_produto VARCHAR(255) NOT NULL,
     estoque INT,
